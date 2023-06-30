@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'poppins',sans-serif;
+}
+body{
+display:flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background: #c0acb8;
+}
+.box{
+ height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.input{
+  width:350px;
+  padding:8px 20px 8px 45px;
+  border:#fff solid 2px;
+  font-size: 18px;
+  border-radius: 25px;
+  background-position: 2% 50%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url('https://img-new.cgtrader.com/items/2638580/f560715517/search-symbol-v1-001-3d-model-low-poly-max-obj-3ds-fbx-ma-stl.jpg');
+  background-color: #fff;
+  transition: 0.5s all ease-in-out;
+  filter:brightness(170%);
+  margin-bottom: 500px;
+}
+input:focus{
+width:350px;
+background-color: #fff;
+filter:brightness(100%);
+}
+
